@@ -24,6 +24,20 @@ public class loopDemo {
 			i++;
 		}
 		System.out.println(message);
+		
+		System.out.println("***********do-while*******************");
+		int j = 1;
+		do {
+			System.out.println(j);
+			j+=3;
+		} while (j<10);
+		System.out.println(message);
+		
+		
+		
+		
+		
+		
 	}
 
 }
